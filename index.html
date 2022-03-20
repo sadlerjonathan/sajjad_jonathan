@@ -12,9 +12,24 @@
 
     <div>
 
-      <p>Hello World, we are software developers!</p>
+      <h1>freeCodeCamp Survey Form</h1>
+      <p id="description">This text is dexcription of the survey form.</p>
+      <form id="survey-form">
 
+        <label id="name-label">
+          Name
+        </label>
+        <input id="name" type="text" required>
+        <label id="email-label">
+          Email
+        </label>
+        <input id="email" pattern=".+@globex\.com" type="email" required>
 
+        <label id="number-label">
+          Age
+        </label>
+        <input id="number" type="number" min="0" max="150">
+      </form>
     </div>  
 
     <!--
