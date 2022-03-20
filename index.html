@@ -19,16 +19,58 @@
         <label id="name-label">
           Name
         </label>
-        <input id="name" type="text" required>
+        <input id="name" type="text" placeholder="Please enter your name." required>
         <label id="email-label">
           Email
         </label>
-        <input id="email" pattern=".+@globex\.com" type="email" required>
+        <input id="email" pattern=".+@globex\.com" type="email" placeholder="Please enter your email." required>
 
         <label id="number-label">
           Age
         </label>
-        <input id="number" type="number" min="0" max="150">
+        <input id="number" type="number" min="0" max="150" placeholder="Please enter a number 0-150." >
+
+
+        <label>
+          Select
+        </label>
+
+        <select name="dropdown" id="dropdown">
+          <option value="A">A</option>
+          <option value="B">B</option>
+        </select>
+
+
+
+
+        <label>
+          Definitely
+        </label>
+        
+        <input name="user-recommend" value="definitely" type="radio" class="input-radio" checked /> 
+
+        <label>
+          Maybe
+        </label>
+
+        <input name="user-recommend" value="maybe" type="radio" class="input-radio" />
+
+        <label>
+          Not sure
+        </label>
+
+        <input name="user-recommend" value="not-sure" type="radio" class="input-radio" />
+
+
+        <label for="comments">Comments</label>
+        <textarea id="comments" name="comments" rows="4" cols="50">Enter comments here.</textarea>
+
+
+
+        <input id="submit" type="submit" value="Submit">
+
+
+
       </form>
     </div>  
 
